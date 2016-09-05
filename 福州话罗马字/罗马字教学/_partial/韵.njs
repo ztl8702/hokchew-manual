@@ -1,5 +1,5 @@
-{# 韵模板 #}
-{# comment 2 #}
+{### 韵模板 ###}
+
 {% import "./helper.njs" as helper %}
 {% block config %}
   {% set buc = "a" %}
@@ -10,7 +10,6 @@
   {% set samplebuc = [1,2,3,4,5,6,7] %}
 {% endblock %}
 # {{ buc }} ({{ qilin }})
-
 
 | BUC {{ helper.tr(tones) }}
 | --- | --- | --- | --- | --- | --- | --- | --- |
