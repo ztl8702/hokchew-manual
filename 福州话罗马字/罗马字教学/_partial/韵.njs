@@ -1,4 +1,5 @@
 {# 韵模板 #}
+{# comment 2 #}
 {% import "./helper.njs" as helper %}
 {% block config %}
   {% set buc = "a" %}
