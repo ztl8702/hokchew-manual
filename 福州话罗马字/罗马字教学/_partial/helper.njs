@@ -1,3 +1,3 @@
-{% macro md_table_row( values = [] ) %}
+{% macro tr( values = [] ) %}
 |{% for value in values %} value |{% endfor %}
 {% endmacro %}
