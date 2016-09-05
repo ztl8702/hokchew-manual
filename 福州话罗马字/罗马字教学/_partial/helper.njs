@@ -1,3 +1,3 @@
 {% macro tr( values = [] ) %}
-|{% for value in values %} value |{% endfor %}
+|{% for value in values %} {{value}} |{% endfor %}
 {% endmacro %}
